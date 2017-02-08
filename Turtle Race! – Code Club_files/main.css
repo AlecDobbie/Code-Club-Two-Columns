@@ -7,6 +7,21 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+@media screen and (min-width : 900px) {
+    #primaryCol{
+        float: left;
+        width: 65%;
+        padding-right: 1em;
+    }
+ 
+    #secondaryCol{
+        float: right;
+        width: 35%;
+    }
+}
+
+
+
 body {
   margin: 0; }
 
