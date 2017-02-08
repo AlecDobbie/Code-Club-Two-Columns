@@ -187,166 +187,173 @@
                             <p><iframe src="./Turtle Race! – Code Club_files/9339862606.html" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""> </iframe> <img src="./Turtle Race! – Code Club_files/race-finished.png"></p>
                         </div>
                     </section>
-                    <section id="step-1-race-track" class="level1 activity">
-                        <h1>Step 1: Race track</h1>
-                        <p>You’re going to create a game with racing turtles. First they’ll need a race track.</p>
-                        <section id="activity-checklist" class="level2 check">
-                            <h2>Activity Checklist</h2>
-                            <ul>
-                                <li class="activity-done">Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you’re reading this online, you can also use the embedded version of this trinket below.</li>
-                            </ul>
-                            <div class="trinket">
-                                <iframe src="./Turtle Race! – Code Club_files/33e5c3b81b.html" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>
-                            </div>
-                            <ul>
-                                <li>Add the following code to draw a line using the ‘turtle’:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-forward.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Now let’s use the turtle to draw some track markings for the race.</li>
-                            </ul>
-                            <p>The turtle <code>write</code> function writes text to the screen.</p>
-                            <p>Try it:</p>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-markings1.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Now you need to fill in the numbers in between to create markings:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-markings2.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Did you notice that your code is very repetitive? The only thing that changes is the number to write.</li>
-                            </ul>
-                            <p>There’s a better way of doing this in Python. You can use a <code>for</code> loop.</p>
-                            <p>Update your code to use a <code>for</code> loop:</p>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-for.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Hmm, that only prints numbers up to 4. In Python <code>range(5)</code> returns five numbers, from 0 up to 4. To get it to also return 5 you’ll need to use <code>range(6)</code>:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-range.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Now we can draw some track markings. The turtle starts at coordinates (0,0) in the middle of the screen.</li>
-                            </ul>
-                            <p>Move the turtle to the top left instead:</p>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-goto.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Ah, you’ll want to lift the pen up first!</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-penup.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Instead of drawing a line horizontally, let’s draw vertical lines to create a track:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-lines.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>It looks neater if you centre the numbers:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-center.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>And you can speed up the turtle so it draws faster:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-speed.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                        </section>
-                        <section id="save-your-project" class="level2 save">
-                            <h2>Save Your Project</h2>
-                        </section>
-                        <section id="challenge-more-lines" class="level2 challenge">
-                            <h2>Challenge: More lines</h2>
-                            <p>Can you change your code so that the track lines go right across the screen?</p>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-challenge1.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <p>If you want to make the turtle go even faster you can use <code>speed(0)</code>.</p>
+
+                    <h1>Step 1: Race track</h1>
+                    <p>You’re going to create a game with racing turtles. First they’ll need a race track.</p>
+
+                    <section class="primaryCol">
+                        <h2>Activity Checklist</h2>
+                        <ul>
+                            <li class="activity-done">Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a>. If you’re reading this online, you can also use the embedded version of this trinket below.</li>
+                        </ul>
+                        <div class="trinket">
+                            <iframe src="./Turtle Race! – Code Club_files/33e5c3b81b.html" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>
+                        </div>
+                    </section>
+                    <section class="secondaryCol">
+                        <ul>
+                            <li>Add the following code to draw a line using the ‘turtle’:</li>
+                        </ul>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-forward.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>Now let’s use the turtle to draw some track markings for the race.</li>
+                        </ul>
+                        <p>
+                            The turtle <code>write</code> function writes text to the screen.
+                        </p>
+                        <p>Try it:</p>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-markings1.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>Now you need to fill in the numbers in between to create markings:</li>
+                        </ul>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-markings2.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>Did you notice that your code is very repetitive? The only thing that changes is the number to write.</li>
+                        </ul>
+                        <p>
+                            There’s a better way of doing this in Python. You can use a <code>for</code> loop.
+                        </p>
+                        <p>
+                            Update your code to use a <code>for</code> loop:
+                        </p>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-for.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>Hmm, that only prints numbers up to 4. In Python <code>range(5)</code> returns five numbers, from 0 up to 4. To get it to also return 5 you’ll need to use <code>range(6)</code>:</li>
+                        </ul>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-range.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>Now we can draw some track markings. The turtle starts at coordinates (0,0) in the middle of the screen.</li>
+                        </ul>
+                        <p>Move the turtle to the top left instead:</p>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-goto.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>Ah, you’ll want to lift the pen up first!</li>
+                        </ul>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-penup.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>Instead of drawing a line horizontally, let’s draw vertical lines to create a track:</li>
+                        </ul>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-lines.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>It looks neater if you centre the numbers:</li>
+                        </ul>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-center.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <ul>
+                            <li>And you can speed up the turtle so it draws faster:</li>
+                        </ul>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-speed.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <h2>Save Your Project</h2>
+                        <h2>Challenge: More lines</h2>
+                        <p>Can you change your code so that the track lines go right across the screen?</p>
+                        <figure>
+                            <img src="./Turtle Race! – Code Club_files/race-challenge1.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                        </figure>
+                        <p>If you want to make the turtle go even faster you can use <code>speed(0)</code>.
+                        </p>
+                        <section id="step-2-racing-turtles" class="level1 activity">
+                            <h>Step 2: Racing turtles</h>
+                            <p>Now for the fun bit. Let’s add some racing turtles. It would be really boring if the turtles did the same thing every time so they will move a random number of steps each turn. The winner is the turtle that gets the furthest in 100 turns.</p>
+                            <section id="activity-checklist-1" class="level2 check">
+                                <h2>Activity Checklist</h2>
+                                <ul>
+                                    <li>When you use commands like <code>forward(20)</code> you are using a single turtle. But you can create more turtles. Add the following code to the end of your script (but make sure it’s not indented):</li>
+                                </ul>
+                                <figure>
+                                    <img src="./Turtle Race! – Code Club_files/race-red.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                                </figure>
+                                <p>The first line creates a turtle called ‘ada’. The next lines set the colour and shape of the turtle. Now it really looks like a turtle!</p>
+                                <ul>
+                                    <li>Let’s send the turtle to the starting line:</li>
+                                </ul>
+                                <figure>
+                                    <img src="./Turtle Race! – Code Club_files/race-start.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                                </figure>
+                                <ul>
+                                    <li>Now you need to make the turtle race by moving a random number of steps at a time. You’ll need the <code>randint</code> function from the Python <code>random</code> library. Add this <code>import</code> line to the top of your script:</li>
+                                </ul>
+                                <figure>
+                                    <img src="./Turtle Race! – Code Club_files/race-randint.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                                </figure>
+                                <ul>
+                                    <li>The <code>randint</code> function returns a random integer (whole number) between the values chosen. The turtle will move forward 1, 2, 3, 4, or 5 steps at each turn.</li>
+                                </ul>
+                                <figure>
+                                    <img src="./Turtle Race! – Code Club_files/race-random.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                                </figure>
+                                <ul>
+                                    <li>One turtle isn’t much of a race! Let’s add another one:</li>
+                                </ul>
+                                <figure>
+                                    <img src="./Turtle Race! – Code Club_files/race-blue.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                                </figure>
+                                <p>Note that the code for moving the blue turtle needs to be in <strong>the same</strong> <code>for</code> loop as the code for moving the red turtle so that they each make a move every turn.</p>
+                            </section>
+                            <section id="save-your-project-1" class="level2 save">
+                                <h2>Save Your Project</h2>
+                            </section>
+                            <section id="challenge-race-time" class="level2 challenge">
+                                <h2>Challenge: Race time!</h2>
+                                <p>Now you’re ready to race. Pick a turtle and an opponent and see who wins.</p>
+                                <p>Can you add more turtles so you can race with more friends?</p>
+                                <figure>
+                                    <img src="./Turtle Race! – Code Club_files/race-more.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                                </figure>
+                                <p>Colours include: orange, purple, violet, tomato, turquoise, magenta and brown - or you can go to <a href="http://jumpto.cc/colours">jumpto.cc/colours</a> and pick any colour you like!</p>
+                            </section>
+                            <section id="save-your-project-2" class="level2 save">
+                                <h2>Save Your Project</h2>
+                            </section>
+                            <section id="challenge-do-a-twirl" class="level2 challenge">
+                                <h2>Challenge: Do a twirl</h2>
+                                <p>Can you use a <code>for turn in range():</code> loop to make each turtle do a 360 degree twirl after they get to the starting line? You’ll need to make sure they are facing in the right direction at the start of the race!</p>
+                                <p><code>ada.right(36)</code> will turn the red turtle right by 36 degrees.</p>
+                                <p><strong>Hint:</strong> A full turn is 360 degrees. A turtle could turn right 10 degrees 36 times, or left 5 degrees 72 times, or any other numbers make 360!</p>
+                            </section>
+                            <section id="challenge-dashed-lines" class="level2 challenge">
+                                <h2>Challenge: Dashed lines</h2>
+                                <p>Can you use a loop to make the track lines dashed instead of solid?</p>
+                                <figure>
+                                    <img src="./Turtle Race! – Code Club_files/race-finished.png" alt="screenshot"><figcaption>screenshot</figcaption>
+                                </figure>
+                                <p><strong>Hint:</strong> Find the code that draws a straight line. Try using:<code>for</code>, <code>forward()</code>, <code>penup()</code> and <code>pendown()</code></p>
+                            </section>
+                            <section id="save-your-project-3" class="level2 save">
+                                <h2>Save Your Project</h2>
+                            </section>
                         </section>
                     </section>
-                    <section id="step-2-racing-turtles" class="level1 activity">
-                        <h1>Step 2: Racing turtles</h1>
-                        <p>Now for the fun bit. Let’s add some racing turtles. It would be really boring if the turtles did the same thing every time so they will move a random number of steps each turn. The winner is the turtle that gets the furthest in 100 turns.</p>
-                        <section id="activity-checklist-1" class="level2 check">
-                            <h2>Activity Checklist</h2>
-                            <ul>
-                                <li>When you use commands like <code>forward(20)</code> you are using a single turtle. But you can create more turtles. Add the following code to the end of your script (but make sure it’s not indented):</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-red.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <p>The first line creates a turtle called ‘ada’. The next lines set the colour and shape of the turtle. Now it really looks like a turtle!</p>
-                            <ul>
-                                <li>Let’s send the turtle to the starting line:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-start.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>Now you need to make the turtle race by moving a random number of steps at a time. You’ll need the <code>randint</code> function from the Python <code>random</code> library. Add this <code>import</code> line to the top of your script:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-randint.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>The <code>randint</code> function returns a random integer (whole number) between the values chosen. The turtle will move forward 1, 2, 3, 4, or 5 steps at each turn.</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-random.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <ul>
-                                <li>One turtle isn’t much of a race! Let’s add another one:</li>
-                            </ul>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-blue.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <p>Note that the code for moving the blue turtle needs to be in <strong>the same</strong> <code>for</code> loop as the code for moving the red turtle so that they each make a move every turn.</p>
-                        </section>
-                        <section id="save-your-project-1" class="level2 save">
-                            <h2>Save Your Project</h2>
-                        </section>
-                        <section id="challenge-race-time" class="level2 challenge">
-                            <h2>Challenge: Race time!</h2>
-                            <p>Now you’re ready to race. Pick a turtle and an opponent and see who wins.</p>
-                            <p>Can you add more turtles so you can race with more friends?</p>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-more.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <p>Colours include: orange, purple, violet, tomato, turquoise, magenta and brown - or you can go to <a href="http://jumpto.cc/colours">jumpto.cc/colours</a> and pick any colour you like!</p>
-                        </section>
-                        <section id="save-your-project-2" class="level2 save">
-                            <h2>Save Your Project</h2>
-                        </section>
-                        <section id="challenge-do-a-twirl" class="level2 challenge">
-                            <h2>Challenge: Do a twirl</h2>
-                            <p>Can you use a <code>for turn in range():</code> loop to make each turtle do a 360 degree twirl after they get to the starting line? You’ll need to make sure they are facing in the right direction at the start of the race!</p>
-                            <p><code>ada.right(36)</code> will turn the red turtle right by 36 degrees.</p>
-                            <p><strong>Hint:</strong> A full turn is 360 degrees. A turtle could turn right 10 degrees 36 times, or left 5 degrees 72 times, or any other numbers make 360!</p>
-                        </section>
-                        <section id="challenge-dashed-lines" class="level2 challenge">
-                            <h2>Challenge: Dashed lines</h2>
-                            <p>Can you use a loop to make the track lines dashed instead of solid?</p>
-                            <figure>
-                                <img src="./Turtle Race! – Code Club_files/race-finished.png" alt="screenshot"><figcaption>screenshot</figcaption>
-                            </figure>
-                            <p><strong>Hint:</strong> Find the code that draws a straight line. Try using:<code>for</code>, <code>forward()</code>, <code>penup()</code> and <code>pendown()</code></p>
-                        </section>
-                        <section id="save-your-project-3" class="level2 save">
-                            <h2>Save Your Project</h2>
-                        </section>
-                    </section>
+                  
+                    
                 </main>
             </article>
         </div>
